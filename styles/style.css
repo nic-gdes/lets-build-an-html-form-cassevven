@@ -1,20 +1,69 @@
-/** Here's some very basic styling to get you started **/
-* {
-    box-sizing: border-box;
-}
+
 body {
+    font-family: Arial, sans-serif;
+    background-color: #ffffff;
     margin: 0;
-    padding-top: 2rem;
-    font-family: Helvetica, Arial, sans-serif;
-    background-color: #f1f1f1;
-    color: #333333;
+    padding: 50px;
+    font-size: 18px;
+    line-height: 30px;
+    text-align: center;
 }
 
-header, main, footer {
-    max-width: 768px;
-    margin: auto;
+
+form {
+    max-width: 500px;
+    margin: 0 auto;
+    background-color: rgb(218, 212, 212);
+    padding: 20px;
+    border-radius: 20px;
 }
 
-header, footer {
+fieldset {
+    border: none;
+}
+
+ol {
+    list-style-type: none;
+    padding: 0;
+    text-align: left;
+}
+
+input[type="text"],
+textarea,
+select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+    transform: scale(2);
+    margin: 15px;
+}
+
+input[type="comments"] {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+input[type="submit"] {
+    background-color: #bb62c5;
+    color: #fff;
+    border: none;
+    padding: 15px 60px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+    font-size: 21px;
+}
+
+input[type="submit"]:hover {
+    background-color: #782688;
+}
+
+footer {
+    padding: 50px;
     text-align: center;
 }
