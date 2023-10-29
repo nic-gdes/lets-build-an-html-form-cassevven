@@ -44,10 +44,6 @@ input[type="checkbox"] {
     margin: 15px;
 }
 
-input[type="comments"] {
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-}
-
 input[type="submit"] {
     background-color: #bb62c5;
     color: #fff;
